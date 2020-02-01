@@ -37,7 +37,7 @@ public class Main {
                     while(booklist.hasNext() ) {
                         Resource books = (Resource) booklist.nextStatement().getObject();
                         System.out.println(" "+ books.getProperty(Litera.bookName).getString());
-                        printTranslators(all, books);
+                        printTranslators(all, author, books);
                     }
                 }
                 else {
@@ -50,13 +50,22 @@ public class Main {
         }
         /* END >> */
     }
-    /* Printing the book, by whoom it was translated (Can be zero or more ) */
-    private static void printTranslators(Model all, Resource books){
+    /* Printing the author name, whose are translated certain books. */
+    private static void printTranslators(Model all, Resource author, Resource books){
         StmtIterator translatorsIterator = all.listStatements(null ,Litera.hasTranslated, books);
         if(translatorsIterator.hasNext()){
             while(translatorsIterator.hasNext()){
                 Resource translateItem = (Resource) translatorsIterator.nextStatement().getSubject();
-                System.out.println(" has translated by: "+ translateItem.getProperty(Litera.authorName).getString());
+                String translatorName = translateItem.getProperty(Litera.authorName).getString();
+                System.out.println(" has translated by: "+translatorName );
+                /* author and translator lives in a same city */
+                String authorLivesIn = author.getProperty(Litera.livesIn).getString();
+                String translatorLivesIn = translateItem.getProperty(Litera.livesIn).getString();
+                if( authorLivesIn.equals(translatorLivesIn) ){
+                    System.out.println("\n* "+author.getProperty(Litera.authorName).getString()+" & "+translatorName+" ( book: "+ books.getProperty(Litera.bookName).getString()+" , city:  "+authorLivesIn+ " ("+authorLivesIn+") )*\n");
+                }
+                /* Done author and translator lives in a same city*/
+
             }
         }
         else{
