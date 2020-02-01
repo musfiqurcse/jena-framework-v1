@@ -1,0 +1,64 @@
+<rdf:RDF
+    xmlns:lit="http://example.org/lit#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" > 
+  <rdf:Description rdf:about="http://example.org/lit#book4">
+    <lit:bookName>The writer</lit:bookName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/lit#book19">
+    <lit:bookName>Oh, oh oh...</lit:bookName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/lit#book3">
+    <lit:bookName>My ghost</lit:bookName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/lit#book16">
+    <lit:bookName>The wild west</lit:bookName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/lit#book5">
+    <lit:bookName>About us</lit:bookName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/lit#book12">
+    <lit:bookName>About a poor man</lit:bookName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/lit#book15">
+    <lit:bookName>Harry, the tramp</lit:bookName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/lit#book2">
+    <lit:bookName>The Castle</lit:bookName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/lit#book18">
+    <lit:bookName>What did you do?</lit:bookName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/lit#book7">
+    <lit:bookName>Let's Dance</lit:bookName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/lit#book9">
+    <lit:bookName>Sounds good</lit:bookName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/lit#book17">
+    <lit:bookName>The daisy killer</lit:bookName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/lit#book11">
+    <lit:bookName>About a dirty meal</lit:bookName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/lit#book6">
+    <lit:bookName>hands up</lit:bookName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/lit#book0">
+    <lit:bookName>The Bridge</lit:bookName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/lit#book8">
+    <lit:bookName>The hammer</lit:bookName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/lit#book1">
+    <lit:bookName>My Home</lit:bookName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/lit#book13">
+    <lit:bookName>The better way</lit:bookName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/lit#book10">
+    <lit:bookName>cooking with Hella</lit:bookName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/lit#book14">
+    <lit:bookName>Hold on</lit:bookName>
+  </rdf:Description>
+</rdf:RDF>

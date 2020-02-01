@@ -1,0 +1,49 @@
+<rdf:RDF xmlns:lit="http://example.org/lit#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" > 
+  <rdf:Description rdf:about="http://example.org/lit#author0">
+    <lit:hasWritten rdf:resource="http://example.org/lit#book12"/>
+    <lit:hasWritten rdf:resource="http://example.org/lit#book3"/>
+    <lit:hasWritten rdf:resource="http://example.org/lit#book0"/>
+    <lit:authorName>John Lorge</lit:authorName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/lit#author2">
+    <lit:hasWritten rdf:resource="http://example.org/lit#book4"/>
+    <lit:hasWritten rdf:resource="http://example.org/lit#book1"/>
+    <lit:authorName>Tony Cash</lit:authorName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/lit#author5">
+    <lit:authorName>Richard Tompson</lit:authorName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/lit#author4">
+    <lit:hasWritten rdf:resource="http://example.org/lit#book19"/>
+    <lit:hasWritten rdf:resource="http://example.org/lit#book5"/>
+    <lit:authorName>Lionel Hurby</lit:authorName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/lit#author1">
+    <lit:hasWritten rdf:resource="http://example.org/lit#book6"/>
+    <lit:hasWritten rdf:resource="http://example.org/lit#book10"/>
+    <lit:authorName>Clarence Will</lit:authorName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/lit#author8">
+    <lit:hasWritten rdf:resource="http://example.org/lit#book18"/>
+    <lit:hasWritten rdf:resource="http://example.org/lit#book15"/>
+    <lit:hasWritten rdf:resource="http://example.org/lit#book9"/>
+    <lit:authorName>Laure Castel</lit:authorName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/lit#author3">
+    <lit:hasWritten rdf:resource="http://example.org/lit#book17"/>
+    <lit:hasWritten rdf:resource="http://example.org/lit#book2"/>
+    <lit:authorName>Allen Weak</lit:authorName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/lit#author7">
+    <lit:hasWritten rdf:resource="http://example.org/lit#book16"/>
+    <lit:hasWritten rdf:resource="http://example.org/lit#book14"/>
+    <lit:hasWritten rdf:resource="http://example.org/lit#book13"/>
+    <lit:authorName>Inter Mayre</lit:authorName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/lit#author6">
+    <lit:hasWritten rdf:resource="http://example.org/lit#book11"/>
+    <lit:hasWritten rdf:resource="http://example.org/lit#book8"/>
+    <lit:hasWritten rdf:resource="http://example.org/lit#book7"/>
+    <lit:authorName>Clara Heller</lit:authorName>
+  </rdf:Description>
+</rdf:RDF>

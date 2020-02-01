@@ -1,0 +1,58 @@
+<rdf:RDF
+    xmlns:lit="http://example.org/lit#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" > 
+  <rdf:Description rdf:about="http://example.org/lit#author48">
+    <lit:livesIn>Hamburg</lit:livesIn>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/lit#author52">
+    <lit:livesIn>Hamburg</lit:livesIn>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/lit#author2">
+    <lit:livesIn>Berlin</lit:livesIn>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/lit#author45">
+    <lit:livesIn>Dresden</lit:livesIn>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/lit#author5">
+    <lit:livesIn>Bern</lit:livesIn>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/lit#author53">
+    <lit:livesIn>Berlin</lit:livesIn>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/lit#author1">
+    <lit:livesIn>Frankfurt</lit:livesIn>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/lit#author50">
+    <lit:livesIn>Bern</lit:livesIn>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/lit#author8">
+    <lit:livesIn>Chemnitz</lit:livesIn>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/lit#author7">
+    <lit:livesIn>Hamburg</lit:livesIn>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/lit#author49">
+    <lit:livesIn>Chemnitz</lit:livesIn>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/lit#author6">
+    <lit:livesIn>Magdeburg</lit:livesIn>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/lit#author0">
+    <lit:livesIn>Dresden</lit:livesIn>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/lit#author4">
+    <lit:livesIn>Chemnitz</lit:livesIn>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/lit#author47">
+    <lit:livesIn>Berlin</lit:livesIn>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/lit#author51">
+    <lit:livesIn>Magdeburg</lit:livesIn>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/lit#author46">
+    <lit:livesIn>Frankfurt</lit:livesIn>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/lit#author3">
+    <lit:livesIn>Hamburg</lit:livesIn>
+  </rdf:Description>
+</rdf:RDF>
